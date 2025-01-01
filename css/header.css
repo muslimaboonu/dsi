@@ -1,0 +1,41 @@
+.header {
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 51px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.link {
+  display: flex;
+  color: var(--link-color);
+  opacity: 80%;
+  transition: all 0.3s;
+  &:hover {
+    opacity: 100%;
+  }
+}
+.icon-box {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.icon i {
+  color: var(--link-color);
+  opacity: 80%;
+  &:hover {
+    cursor: pointer;
+  }
+}

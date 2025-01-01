@@ -1,0 +1,32 @@
+.hero-container {
+  display: flex;
+  gap: 17px;
+  margin-top: 25px;
+}
+.hero-content {
+}
+.hero-title {
+  width: 100%;
+  max-width: 545px;
+  margin-bottom: 24px;
+  color: var(--title-color);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64.17px;
+}
+.colorful-title {
+  color: var(--primary-color);
+}
+.hero-description {
+  width: 100%;
+  max-width: 520px;
+  color: var(--text-color);
+  line-height: 29px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.btn {
+}
+.hero-imgBox {
+}
